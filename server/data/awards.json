@@ -1,0 +1,44 @@
+[
+  {
+    "year": 1978,
+    "type": "milestone",
+    "title": "Joined University of Rajasthan",
+    "organization": "University of Rajasthan",
+    "description": "Started academic career as a faculty member in Economics."
+  },
+  {
+    "year": 2016,
+    "type": "milestone",
+    "title": "Professor & Director, School of Humanities and Social Sciences",
+    "organization": "Manipal University Jaipur",
+    "description": "Led academic programs and interdisciplinary initiatives."
+  },
+  {
+    "year": 2021,
+    "type": "award",
+    "title": "National Excellence Award",
+    "organization": "National Human Rights Organization",
+    "description": "For academic research in Economic Development."
+  },
+  {
+    "year": 2021,
+    "type": "award",
+    "title": "Dr. APJ Abdul Kalam National Award",
+    "organization": "National Excellence Forum",
+    "description": "Recognized for contribution to education and leadership."
+  },
+  {
+    "year": 2023,
+    "type": "award",
+    "title": "Lifetime Achievement Award",
+    "organization": "INSPIRA Research Association",
+    "description": "For excellence in research and higher education leadership."
+  },
+  {
+    "year": 2025,
+    "type": "award",
+    "title": "Bharat Samman Award (Educationist)",
+    "organization": "Global Excellence Forum",
+    "description": "National recognition for contributions to education."
+  }
+]

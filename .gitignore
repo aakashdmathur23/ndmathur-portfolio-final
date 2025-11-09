@@ -1,0 +1,13 @@
+# Node & build artifacts
+node_modules/
+dist/
+.env
+.DS_Store
+*.log
+
+# IDE files
+.idea/
+.vscode/
+
+# OS junk
+Thumbs.db

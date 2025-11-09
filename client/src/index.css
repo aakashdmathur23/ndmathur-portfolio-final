@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* set fonts */
+:root {
+  --heading-font: 'Merriweather', serif;
+  --body-font: 'Lato', sans-serif;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  font-family: var(--body-font);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #000;
+}
+h1,h2,h3,h4 {
+  font-family: var(--heading-font);
+}
