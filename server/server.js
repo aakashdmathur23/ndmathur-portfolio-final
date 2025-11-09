@@ -101,4 +101,17 @@ app.get('/api/gallery', (req, res) => {
 });
 
 
-app.listen(5000, () => console.log('Server running on http://localhost:5000'));
+import { fileURLToPath } from "url";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const clientDist = path.resolve(__dirname, "../client/dist");
+
+app.use(express.static(clientDist));
+app.get("*", (req, res) => {
+  res.sendFile(path.join(clientDist, "index.html"));
+});
+
+// ---- START SERVER ----
+const PORT = process.env.PORT || 5000;
+app.listen(PORT, () => console.log(`✅ Server running on port ${PORT}`));
