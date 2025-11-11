@@ -15,7 +15,7 @@ export default function Books() {
   return (
     <div className="max-w-5xl mx-auto p-8 font-body">
       <h2 className="font-heading text-3xl mb-6 text-oxford_blue flex items-center gap-2">
-        <BookOpen size={28} className="text-orange_web-500" /> Authored & Edited Books
+        <BookOpen size={28} className="text-orange_web-500" /> Authored Books
       </h2>
 
       {books.length === 0 ? (

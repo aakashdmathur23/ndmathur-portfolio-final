@@ -1,7 +1,7 @@
 {
   "name": "Prof. (Dr.) N. D. Mathur",
   "designation": "President (Vice-Chancellor), Vivekananda Global University, Jaipur",
-  "summary": "Prof. N.D. Mathur is an eminent academician with nearly five decades of teaching, research and leadership in Economics, Commerce and Management. He has authored textbooks and reference books, supervised numerous PhD scholars, published extensively, and served in senior administrative and advisory roles across universities and national bodies.",
+  "summary": "Prof. N.D. Mathur is an eminent academician with nearly five decades of teaching, research and leadership in Economics, Commerce and Management. He has authored textbooks and reference books, supervised numerous PhD scholars, published extensively, and served in senior administrative and advisory roles across universities and national committees and bodies. He has USP of being professor in 3 disciplines independently viz Management, Commerce and Economics.",
   "contact": {
     "emails": [
       "mathur.naresh@rediffmail.com",
@@ -19,13 +19,23 @@
   ],
   "education": [
     {
-      "degree": "Ph.D. (Economics)",
+      "degree": "Ph.D. (Economic Administration)",
       "institution": "University of Rajasthan, Jaipur",
       "year": null,
       "notes": "Doctoral research in applied economics and public policy."
     },
     {
+      "degree": "MPhil. (Economics)",
+      "institution": "University of Rajasthan, Jaipur",
+      "year": null
+    },
+    {
       "degree": "M.A. (Economics)",
+      "institution": "University of Rajasthan, Jaipur",
+      "year": null
+    },
+    {
+      "degree": "M.Com. (EAFM)",
       "institution": "University of Rajasthan, Jaipur",
       "year": null
     }
@@ -55,11 +65,32 @@
       "title": "Director, University Five Year Law College",
       "organization": "University of Rajasthan",
       "period": "—"
+    },
+    {
+      "title": "Director, Academic Staff College (Now MMTTC)",
+      "organization": "University of Rajasthan"
+    },
+    {
+      "title": "Director, Central Library",
+      "organization": "University of Rajasthan"
+    },
+    {
+      "title": "Director, Administrative Services Pre-Entry Training Center",
+      "organization": "University of Rajasthan"
+    },
+    {
+      "title": "Founder Dean, College of Management",
+      "organization": "SMVD University, Jammu & Kashmir"
+    },
+    {
+      "title": "Founder Dean, Faculty of Management",
+      "organization": "Central University of Rajasthan"
     }
   ],
   "research_and_supervision": {
-    "phd_supervisions": 36,
-    "notes": "Supervised doctoral research across applied economics and management topics; promotes research with real-world institutional application."
+    "phd_supervisions": 34,
+    "postdoc supervisions": 2,
+    "notes": "Supervised 34 doctoral and 2 Post Doctoral research across applied economics and management topics; promotes research with real-world institutional application."
   },
   "books": [
     "Price Policy in Public Enterprises — National Publishing House, Jaipur",
@@ -70,13 +101,12 @@
     "Vyasti Arthshastra (Hindi) — Shivam Book House Pvt. Ltd., Jaipur",
     "Macroeconomic Theory — Shivam Book House Pvt. Ltd., Jaipur"
   ],
-  "publications_overview": "Prof. Mathur has published widely in national and international journals. Selected works include studies on financial inclusion, environmental assessment, and market volatility. Several papers are indexed in SCOPUS.",
+  "publications_overview": "Prof. Mathur has published widely in national and international journals. Selected works include studies on financial inclusion, environmental assessment, and market volatility. Several papers are indexed in SCOPUS. Besides this he has authored 25 reference books and various topics",
   "memberships_and_roles": [
     "Member, academic and editorial boards of national journals and associations",
-    "Worked on UGC and university-level committees",
-    "Director, Administrative Services Pre-Training Centre (APTC), University of Rajasthan"
+    "Worked on UGC and university-level committees"
   ],
-  "training_and_conferences": "Delivered over 3000 lectures, chaired national & international conferences, organized training programs for administrators and faculty.",
+  "training_and_conferences": "Delivered over 5000 lectures, chaired national & international conferences, organized training programs for administrators and faculty.",
   "teaching_philosophy": "Believes in bridging theory and practice — encouraging students to apply economic tools to real-world institutional and policy problems.",
   "sources": [
     "CV_N D Mathur.docx",

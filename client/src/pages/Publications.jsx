@@ -15,7 +15,7 @@ export default function Publications() {
   return (
     <div className="max-w-5xl mx-auto p-8 font-body">
       <h2 className="font-heading text-3xl mb-6 text-oxford_blue flex items-center gap-2">
-        <FileText size={26} className="text-orange_web-500" /> Research Publications
+        <FileText size={26} className="text-orange_web-500" /> Research Paper Publications
       </h2>
 
       {pubs.length === 0 ? (

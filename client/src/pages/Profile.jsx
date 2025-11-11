@@ -111,9 +111,6 @@ export default function Profile() {
 
       </div>
 
-      <div className="mt-8 text-sm text-gray-500 text-center">
-        <div>Source: CV and Profile documents.</div>
-      </div>
     </div>
   );
 }

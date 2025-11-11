@@ -5,7 +5,7 @@ export default function Home() {
   const stats = [
     { label: 'Years of Teaching', value: '47+' },
     { label: 'Research Papers', value: '70+' },
-    { label: 'PhD Supervisions', value: '36+' },
+    { label: 'PhD Supervisions', value: '34+' },
     { label: 'Lectures Delivered', value: '3000+' },
   ];
 
