@@ -1,14 +1,41 @@
 [
   {
-    "path": "/assets/portrait.jpeg",
-    "caption": "Prof. (Dr.) N. D. Mathur — President, Vivekananda Global University"
+    "path": "/assets/portrait.jpeg"
   },
   {
-    "path": "/assets/gallery1.jpeg",
-    "caption": "Receiving Lifetime Achievement Award — INSPIRA Research Association, 2023"
+    "path": "/assets/gallery1.jpeg"
   },
   {
-    "path": "/assets/gallery2.jpeg",
-    "caption": "Delivering keynote lecture at National Conference on Sustainable Development"
+    "path": "/assets/gallery2.jpeg"
+  },
+  {
+    "path": "/assets/gallery3.jpeg"
+  },
+  {
+    "path": "/assets/gallery4.jpeg"
+  },
+  {
+    "path": "/assets/gallery5.jpeg"
+  },
+  {
+    "path": "/assets/gallery6.jpeg"
+  },
+  {
+    "path": "/assets/gallery7.jpeg"
+  },
+  {
+    "path": "/assets/gallery8.jpeg"
+  },
+  {
+    "path": "/assets/gallery9.jpeg"
+  },
+  {
+    "path": "/assets/gallery10.jpeg"
+  },
+  {
+    "path": "/assets/gallery11.jpeg"
+  },
+  {
+    "path": "/assets/gallery12.jpeg"
   }
 ]
