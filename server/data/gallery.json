@@ -9,33 +9,55 @@
     "path": "/assets/gallery2.jpeg"
   },
   {
-    "path": "/assets/gallery3.jpeg"
+    "path": "/assets/gallery3.jpeg",
+    "caption": "Life time achievement award - 2023"
   },
   {
-    "path": "/assets/gallery4.jpeg"
+    "path": "/assets/gallery4.jpeg",
+    "caption": "Kayasth Bhushan Samman - 2021"
   },
   {
-    "path": "/assets/gallery5.jpeg"
+    "path": "/assets/gallery5.jpeg",
+    "caption": "Dr. Sarvepalli Radhakrishnan National Honor - 2020"
   },
   {
-    "path": "/assets/gallery6.jpeg"
+    "path": "/assets/gallery6.jpeg",
+    "caption": "Award for Excellence in Education - 2022"
   },
   {
-    "path": "/assets/gallery7.jpeg"
+    "path": "/assets/gallery7.jpeg",
+    "caption": "Exceptional Contribution to Humanities Education Award - 2023"
   },
   {
-    "path": "/assets/gallery8.jpeg"
+    "path": "/assets/gallery8.jpeg",
+    "caption": "IIU Global Summit Felicitation - 2021"
   },
   {
-    "path": "/assets/gallery9.jpeg"
+    "path": "/assets/gallery9.jpeg",
+    "caption": "Dr. APJ Abdul Kalam National Award - 2021"
   },
   {
-    "path": "/assets/gallery10.jpeg"
+    "path": "/assets/gallery10.jpeg",
+    "caption": "Kayasth Shikshak Ratan - 2022"
   },
   {
-    "path": "/assets/gallery11.jpeg"
+    "path": "/assets/gallery11.jpeg",
+    "caption": "Mala Mathur Memorial Lifetime Achievement Award in Education - 2025"
   },
   {
-    "path": "/assets/gallery12.jpeg"
+    "path": "/assets/gallery12.jpeg",
+    "caption": "Bharat Samman Award - 2025"
+  },
+  {
+    "path": "/assets/gallery13.jpeg",
+    "caption": "Academic Transformation Award - 2025"
+  },
+  {
+    "path": "/assets/gallery14.jpeg",
+    "caption": "Major Alok Mathur Memorial Award - 2025"
+  },
+  {
+    "path": "/assets/gallery15.jpeg",
+    "caption": "Galvanizer Award - 2025"
   }
 ]
