@@ -34,7 +34,7 @@ export default function Gallery() {
               <img
                 src={img.path}
                 alt={img.caption}
-                className="w-full h-95 object-cover rounded-lg"
+                className="w-full h-85 object-cover rounded-lg"
               />
               <div className="p-3 bg-white text-gray-700 text-sm text-center">
                 {img.caption}
