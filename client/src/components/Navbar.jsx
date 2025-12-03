@@ -1,8 +1,41 @@
-import React from 'react';
+// src/components/Navbar.jsx
+import React, { useRef, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import { Linkedin, FileDown } from 'lucide-react';
 
 export default function Navbar() {
+  const detailsRef = useRef(null);
+
+  // Close the details (mobile menu)
+  const closeMenu = () => {
+    try {
+      if (detailsRef.current && detailsRef.current.open) {
+        detailsRef.current.open = false;
+      }
+    } catch (e) {
+      // silent fail - not critical
+    }
+  };
+
+  // Close menu when clicking outside the details popup
+  useEffect(() => {
+    const onDocClick = (e) => {
+      const details = detailsRef.current;
+      if (!details) return;
+      // If details is open and click is outside details element, close it
+      if (
+        details.open &&
+        !details.contains(e.target) &&
+        // allow clicks on the summary to toggle as usual
+        !details.querySelector('summary')?.contains(e.target)
+      ) {
+        details.open = false;
+      }
+    };
+    document.addEventListener('click', onDocClick);
+    return () => document.removeEventListener('click', onDocClick);
+  }, []);
+
   return (
     <nav className="bg-oxford_blue text-white p-4 flex justify-between items-center sticky top-0 shadow-lg z-50">
       <div className="font-heading text-lg md:text-xl tracking-wide">Prof. N. D. Mathur</div>
@@ -29,7 +62,7 @@ export default function Navbar() {
 
       {/* Mobile hamburger */}
       <div className="md:hidden relative">
-        <details className="relative">
+        <details ref={detailsRef} className="relative">
           <summary className="list-none">
             <div className="space-y-1 cursor-pointer">
               <span className="block w-6 h-0.5 bg-white"></span>
@@ -37,18 +70,34 @@ export default function Navbar() {
               <span className="block w-6 h-0.5 bg-white"></span>
             </div>
           </summary>
+
           <div className="absolute right-0 mt-2 p-4 bg-oxford_blue rounded-md shadow-lg flex flex-col space-y-2">
-            <NavLink to="/" className="hover:text-orange_web-500">Home</NavLink>
-            <NavLink to="/profile" className="hover:text-orange_web-500">Profile</NavLink>
-            <NavLink to="/books" className="hover:text-orange_web-500">Books</NavLink>
-            <NavLink to="/publications" className="hover:text-orange_web-500">Publications</NavLink>
-            <NavLink to="/awards" className="hover:text-orange_web-500">Awards</NavLink>
-            <NavLink to="/gallery" className="hover:text-orange_web-500">Gallery</NavLink>
-            <NavLink to="/contact" className="hover:text-orange_web-500">Contact</NavLink>
-            <a href="/assets/CV_N D Mathur.pdf" download className="text-orange_web-500 flex items-center">
+            <NavLink onClick={closeMenu} to="/" className="hover:text-orange_web-500">Home</NavLink>
+            <NavLink onClick={closeMenu} to="/profile" className="hover:text-orange_web-500">Profile</NavLink>
+            <NavLink onClick={closeMenu} to="/books" className="hover:text-orange_web-500">Books</NavLink>
+            <NavLink onClick={closeMenu} to="/publications" className="hover:text-orange_web-500">Publications</NavLink>
+            <NavLink onClick={closeMenu} to="/awards" className="hover:text-orange_web-500">Awards</NavLink>
+            <NavLink onClick={closeMenu} to="/gallery" className="hover:text-orange_web-500">Gallery</NavLink>
+            <NavLink onClick={closeMenu} to="/contact" className="hover:text-orange_web-500">Contact</NavLink>
+
+            <a
+              href="/assets/CV_N D Mathur.pdf"
+              download
+              onClick={closeMenu}
+              className="text-orange_web-500 flex items-center"
+            >
               <FileDown size={16}/> <span className="ml-1">Download CV</span>
             </a>
-            <a href="https://www.linkedin.com/in/prof-n-d-mathur-94529915/" target="_blank" rel="noopener noreferrer" className="text-orange_web-500">LinkedIn</a>
+
+            <a
+              href="https://www.linkedin.com/in/prof-n-d-mathur-94529915/"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={closeMenu}
+              className="text-orange_web-500"
+            >
+              LinkedIn
+            </a>
           </div>
         </details>
       </div>
