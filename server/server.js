@@ -7,8 +7,14 @@ import sgMail from '@sendgrid/mail';
 
 
 const app = express();
-app.use(cors());
 app.use(express.json());
+app.use(cors({
+  origin: [
+    "https://ndmathur.in",
+    "https://www.ndmathur.in",
+    "https://ndmathur-portfolio-final.vercel.app"
+  ]
+}));
 
 const dataPath = path.resolve('./data');
 
@@ -100,16 +106,8 @@ app.get('/api/gallery', (req, res) => {
   res.json(gallery);
 });
 
-
-import { fileURLToPath } from "url";
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-const clientDist = path.resolve(__dirname, "../client/dist");
-
-app.use(express.static(clientDist));
-app.get("*", (req, res) => {
-  res.sendFile(path.join(clientDist, "index.html"));
+app.get("/", (req, res) => {
+  res.send("Backend API is running");
 });
 
 // ---- START SERVER ----
